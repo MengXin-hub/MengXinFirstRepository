@@ -14,3 +14,5 @@ Upload code from Git bash to github.com:
   ssh-keygen -t rsa  # 生成ssh密匙
   ssh -T git@github.com  # 查看绑定状态
   git pull/push origin main/master  # 先同步再更新
+  git rm -r --cached "file_name"  # 删除文件夹（需要->7/commit）
+  git push -u origin master  # 更新
