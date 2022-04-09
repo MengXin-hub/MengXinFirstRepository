@@ -16,3 +16,4 @@ Upload code from Git bash to github.com:
   git pull/push origin main/master  # 先同步再更新
   git rm -r --cached "file_name"  # 删除文件夹（需要->7/commit）
   git push -u origin master  # 更新
+  git mv 旧名 新名  # 重命名
