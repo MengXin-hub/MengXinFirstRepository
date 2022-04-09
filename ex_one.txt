@@ -1,1 +1,16 @@
 my first repository!
+Upload code from Git bash to github.com:
+  Common command:
+  git status  # 查看仓库状态
+  git init  # 初始化仓库
+  git add `file_name.xxx`  # 添加文件到临时缓存区
+  git commit -m "remark"  # 提交到仓库
+  git log  # 日志
+  git branch ('xxx')  # 查看（创建xxx）分支
+  git checkout ('xxx')  # 切换到分支
+  git A B  # 合并分支（A，B不冲突）
+  git branch -d/-D  # 删除分支（强制删除）
+  git tag "lab" # 为当前分支添加标签
+  ssh-keygen -t rsa  # 生成ssh密匙
+  ssh -T git@github.com  # 查看绑定状态
+  git pull/push origin master  # 先同步再更新
