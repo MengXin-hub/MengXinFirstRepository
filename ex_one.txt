@@ -13,4 +13,4 @@ Upload code from Git bash to github.com:
   git tag "lab" # 为当前分支添加标签
   ssh-keygen -t rsa  # 生成ssh密匙
   ssh -T git@github.com  # 查看绑定状态
-  git pull/push origin main  # 先同步再更新
+  git pull/push origin main/master  # 先同步再更新
